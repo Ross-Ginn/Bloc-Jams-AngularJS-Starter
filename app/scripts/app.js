@@ -5,7 +5,6 @@
              enabled: true,
              requireBase: false
          });
-    }
 
     $stateProvider
          .state('landing', {
@@ -19,7 +18,7 @@
            .state('collection', {
                url: '/collection',
                templateUrl: '/templates/collection.html'
-           });
+           });}
 
 angular.module('blocJams', ['ui.router']);
     angular
