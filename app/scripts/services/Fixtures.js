@@ -30,17 +30,9 @@
              { title: 'Can you hear me now?', duration: '3:14' },
              { title: 'Wrong phone number', duration: '2:15' }
          ]
-     };
-
-     Fixtures.getAlbum = function() {
-         return albumPicasso;
-     };
-
-     Fixtures.getCollection = function() {
-       numberOfAlbums = []
-       
-         return numberOfAlbums;
-     };
+         Fixtures.getAlbum = function() {
+             return albumPicasso;
+         };
 
          return Fixtures;
      }

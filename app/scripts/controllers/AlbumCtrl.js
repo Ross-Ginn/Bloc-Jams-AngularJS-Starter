@@ -1,6 +1,7 @@
 (function() {
-     function AlbumCtrl(Fixtures) {
-       this.albumData = Fixtures.getAlbum();
+  function AlbumCtrl(Fixtures) {
+     this.albumData = Fixtures.getAlbum();
+ }
      }
 
      angular
