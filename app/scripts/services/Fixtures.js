@@ -30,12 +30,22 @@
              { title: 'Can you hear me now?', duration: '3:14' },
              { title: 'Wrong phone number', duration: '2:15' }
          ]
+       };
          Fixtures.getAlbum = function() {
              return albumPicasso;
          };
 
+         Fixtures.getCollection = function(numberOfAlbums) {
+           var collection = [];
+           for(var i = 0; i < numberOfAlbums; i++) {
+             collection.push(albumPicasso);
+           }
+
+           return collection;
+         };
+
          return Fixtures;
-     }
+     };
 
      angular
          .module('blocJams')
