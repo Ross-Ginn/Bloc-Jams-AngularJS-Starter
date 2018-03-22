@@ -31,8 +31,9 @@
              { title: 'Wrong phone number', duration: '2:15' }
          ]
        };
+
          Fixtures.getAlbum = function() {
-             return albumPicasso;
+             return albumMarconi;
          };
 
          Fixtures.getCollection = function(numberOfAlbums) {
